@@ -1,0 +1,20 @@
+{
+  "model": "TVP-VAR Connectedness (RLS + EWMA baseline)",
+  "data_path": "./merged_var_input.csv",
+  "date_col": "Date",
+  "use_cols": [
+    "dlog_SOLVPN",
+    "dlog_COPPER",
+    "dlog_DXY",
+    "d_UST10Y",
+    "dlog_VIX"
+  ],
+  "lag_order": 1,
+  "fevd_horizon": 10,
+  "lambda_beta": 0.99,
+  "lambda_sigma": 0.98,
+  "min_t": 150,
+  "init_scale": 1000.0,
+  "n_obs_input": 1325,
+  "n_obs_after_lag": 1324
+}

@@ -1,0 +1,22 @@
+{
+  "model": "DCC-GARCH(1,1)",
+  "data_path": "./merged_var_input.csv",
+  "date_col": "Date",
+  "use_cols": [
+    "dlog_SOLVPN",
+    "dlog_COPPER",
+    "dlog_DXY",
+    "d_UST10Y",
+    "dlog_VIX"
+  ],
+  "mean_type": "AR",
+  "mean_lags": 1,
+  "vol_type": "GARCH",
+  "p_garch": 1,
+  "q_garch": 1,
+  "dist": "normal",
+  "dcc_alpha": 0.020805855848861084,
+  "dcc_beta": 0.950757405933724,
+  "n_obs_raw": 1325,
+  "n_obs_used": 1324
+}

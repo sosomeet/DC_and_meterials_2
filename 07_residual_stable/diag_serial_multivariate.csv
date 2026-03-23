@@ -1,0 +1,2 @@
+﻿method,nlags,statistic,pvalue,df
+test_whiteness,20,500.680104692793,0.20041207842848813,475

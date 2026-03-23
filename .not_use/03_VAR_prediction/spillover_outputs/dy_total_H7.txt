@@ -1,0 +1,1 @@
+Total spillover index (DY, generalized FEVD), H=7: 23.544454

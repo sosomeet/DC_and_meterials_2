@@ -1,0 +1,24 @@
+{
+  "model": "Quantile Spillover (baseline rolling quantile VAR + generalized FEVD)",
+  "data_path": "./merged_var_input.csv",
+  "date_col": "Date",
+  "use_cols": [
+    "dlog_SOLVPN",
+    "dlog_COPPER",
+    "dlog_DXY",
+    "d_UST10Y",
+    "dlog_VIX"
+  ],
+  "lag_order": 1,
+  "fevd_horizon": 10,
+  "window": 200,
+  "taus": [
+    0.05,
+    0.5,
+    0.95
+  ],
+  "max_iter": 5000,
+  "n_obs_input": 1325,
+  "n_obs_after_lag": 1324,
+  "n_windows": 1125
+}
