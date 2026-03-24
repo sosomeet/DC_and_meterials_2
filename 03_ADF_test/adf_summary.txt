@@ -1,0 +1,30 @@
+============================================================
+ADF Unit Root Test Summary
+============================================================
+
+1) Raw level data
+-----------------
+Variables tested:
+  - SOLVPN: ADF=0.309193, p=0.977762, lag=1, stationary@5%=False
+  - COPPER: ADF=-1.489866, p=0.538519, lag=17, stationary@5%=False
+  - GOLD: ADF=5.067486, p=1.000000, lag=13, stationary@5%=False
+  - SILVER: ADF=5.222036, p=1.000000, lag=10, stationary@5%=False
+  - DXY: ADF=-1.669030, p=0.447136, lag=2, stationary@5%=False
+  - UST10Y: ADF=-1.867422, p=0.347539, lag=0, stationary@5%=False
+  - VIX: ADF=-5.202269, p=0.000009, lag=4, stationary@5%=True
+
+2) Transformed data
+-------------------
+Variables tested:
+  - dlog_SOLVPN: ADF=-30.360984, p=0.000000, lag=0, stationary@5%=True
+  - dlog_COPPER: ADF=-33.106097, p=0.000000, lag=0, stationary@5%=True
+  - dlog_GOLD: ADF=-33.586020, p=0.000000, lag=0, stationary@5%=True
+  - dlog_SILVER: ADF=-34.864268, p=0.000000, lag=0, stationary@5%=True
+  - dlog_DXY: ADF=-24.851222, p=0.000000, lag=1, stationary@5%=True
+  - d_UST10Y: ADF=-32.042979, p=0.000000, lag=0, stationary@5%=True
+  - d_VIX: ADF=-17.610739, p=0.000000, lag=4, stationary@5%=True
+
+3) Final check for transformed data
+----------------------------------
+Stationary @ 5%: ['dlog_SOLVPN', 'dlog_COPPER', 'dlog_GOLD', 'dlog_SILVER', 'dlog_DXY', 'd_UST10Y', 'd_VIX']
+Not stationary @ 5%: None
