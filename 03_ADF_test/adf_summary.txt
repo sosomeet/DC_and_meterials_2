@@ -5,13 +5,13 @@ ADF Unit Root Test Summary
 1) Raw level data
 -----------------
 Variables tested:
-  - SOLVPN: ADF=0.309193, p=0.977762, lag=1, stationary@5%=False
-  - COPPER: ADF=-1.489866, p=0.538519, lag=17, stationary@5%=False
-  - GOLD: ADF=5.067486, p=1.000000, lag=13, stationary@5%=False
-  - SILVER: ADF=5.222036, p=1.000000, lag=10, stationary@5%=False
-  - DXY: ADF=-1.669030, p=0.447136, lag=2, stationary@5%=False
-  - UST10Y: ADF=-1.867422, p=0.347539, lag=0, stationary@5%=False
-  - VIX: ADF=-5.202269, p=0.000009, lag=4, stationary@5%=True
+  - SOLVPN: ADF=-0.064006, p=0.952908, lag=1, stationary@5%=False
+  - COPPER: ADF=-1.423349, p=0.571032, lag=14, stationary@5%=False
+  - GOLD: ADF=4.657542, p=1.000000, lag=13, stationary@5%=False
+  - SILVER: ADF=5.207648, p=1.000000, lag=10, stationary@5%=False
+  - DXY: ADF=-1.632210, p=0.466334, lag=2, stationary@5%=False
+  - UST10Y: ADF=-1.875811, p=0.343525, lag=0, stationary@5%=False
+  - VIX: ADF=-5.504398, p=0.000002, lag=2, stationary@5%=True
 
 2) Transformed data
 -------------------
