@@ -1,0 +1,52 @@
+============================================================
+TVP-VAR / GFEVD Diagnostic Summary
+============================================================
+beta_t shape : (1035, 7, 7)
+cov_t shape  : (1035, 7, 7)
+lag p        : 1
+horizon H    : 10
+
+[Covariance summary]
+diag_mean avg           : 3.860506
+diag_min global         : 0.000000
+eig_min global          : -0.000000
+PSD-like ratio          : 1.0000
+symmetry max abs diff   : 0.000000000000
+
+[Orientation comparison: last MAX_CHECK_T periods]
+checked periods         : 30
+TCI_normal mean         : 85.714286
+TCI_transpose mean      : 85.714286
+net_abs_mean_normal     : 0.000000
+net_abs_mean_transpose  : 0.000000
+diag-offdiag normal     : -0.000000
+diag-offdiag transpose  : -0.000000
+stable ratio normal     : 0.2000
+stable ratio transpose  : 0.2000
+
+[Heuristic orientation verdict]
+normal orientation looks more plausible
+
+[Existing gfevd_all.npy summary]
+shape = (1035, 7, 7)
+TCI mean = 85.714286
+TCI std  = 0.000000
+diag_mean mean = 0.142857
+offdiag_mean mean = 0.142857
+net_abs_mean avg = 0.000002
+row_err max = 0.000000000000
+last theta =
+[[0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]
+ [0.1429 0.1429 0.1429 0.1429 0.1429 0.1429 0.1429]]
+
+[Interpretation guide]
+- eig_min(global) < 0 and PSD-like ratio low: cov_t may not behave like innovation covariance.
+- diag_minus_offdiag too small: GFEVD may be overly dense.
+- net_abs_mean too small across time: directional asymmetry may be collapsing.
+- stable ratio low: TVP-VAR coefficient matrices may be unstable.
+- transpose orientation looks better: beta_t block direction may have been interpreted incorrectly.
