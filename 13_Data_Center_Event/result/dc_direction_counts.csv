@@ -1,0 +1,6 @@
+Is_DC_Event,DirectionType,Count
+True,Copper_to_DC,4
+True,DC_to_Copper,2
+False,Copper_to_DC,22
+False,DC_to_Copper,19
+False,Bidirectional,5
