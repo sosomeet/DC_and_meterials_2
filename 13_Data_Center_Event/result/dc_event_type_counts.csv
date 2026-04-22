@@ -1,6 +1,0 @@
-Is_DC_Event,DC_EventType,Count
-True,Copper_Supply_Transient,3
-True,Copper_Supply_Structural,1
-True,DC_Demand_Structural,1
-True,DC_Demand_Transient,1
-False,Non_DC_Event,46
