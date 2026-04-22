@@ -2,11 +2,12 @@
 Lag Selection Summary
 ============================================================
 
-Input file : tvpvar_input_scaled.csv
-Variables  : dlog_SOLVPN, dlog_COPPER, dlog_GOLD, dlog_SILVER, dlog_DXY, d_UST10Y, d_VIX
-Sample size: 1036
-Max lags   : 10
-Candidate lags: 1 ~ 10
+Input file        : tvpvar_input_scaled.csv
+Variables         : dlog_SOLVPN, dlog_COPPER, dlog_GOLD, dlog_SILVER, dlog_DXY, d_UST10Y, d_VIX
+Sample size       : 1036
+Requested maxlags : 10
+Used maxlags      : 10
+Candidate lags    : 1 ~ 10
 
 Best lag by criterion
 ---------------------
@@ -21,8 +22,16 @@ lag 1: 4 vote(s)
 
 Recommended lag (majority vote): 1
 
+Raw selected_orders from statsmodels
+------------------------------------
+aic: 1
+bic: 0
+hqic: 0
+fpe: 1
+
 Decision rule
 -------------
 - Candidate models were restricted to lag >= 1.
 - Final recommendation is based on AIC, BIC, HQIC, and FPE jointly.
-- If needed, compare residual diagnostics for nearby lag candidates.
+- If requested maxlags is infeasible, the code automatically reduces it.
+- Compare residual diagnostics for nearby lag candidates if needed.
