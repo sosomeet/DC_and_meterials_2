@@ -1,0 +1,7 @@
+Metric,Value
+N_total_events,52.0
+N_dc_events,6.0
+DC_event_quantile_threshold,0.9
+PairImpact_threshold,0.2631001690015597
+Structural_quantile_threshold,0.75
+Asymmetry_eps_ratio,0.1
