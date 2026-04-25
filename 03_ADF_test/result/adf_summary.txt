@@ -1,0 +1,34 @@
+============================================================
+ADF Unit Root Test Summary
+============================================================
+
+1) Raw level data
+-----------------
+Variables tested:
+  - SOLVPN: ADF=-0.071941, p=0.952163, lag=1, stationary@5%=False
+  - COPPER: ADF=-1.425120, p=0.570176, lag=14, stationary@5%=False
+  - GOLD: ADF=3.631611, p=1.000000, lag=22, stationary@5%=False
+  - SILVER: ADF=4.857975, p=1.000000, lag=15, stationary@5%=False
+  - DXY: ADF=-1.629349, p=0.467832, lag=2, stationary@5%=False
+  - UST10Y: ADF=-1.869951, p=0.346327, lag=0, stationary@5%=False
+  - VIX: ADF=-5.222169, p=0.000008, lag=3, stationary@5%=True
+  - OIL: ADF=-2.385143, p=0.145974, lag=9, stationary@5%=False
+  - GAS: ADF=-2.968688, p=0.037924, lag=7, stationary@5%=True
+
+2) Transformed / scaled data
+----------------------------
+Variables tested:
+  - dlog_SOLVPN: ADF=-30.456048, p=0.000000, lag=0, stationary@5%=True
+  - dlog_COPPER: ADF=-32.902080, p=0.000000, lag=0, stationary@5%=True
+  - dlog_GOLD: ADF=-6.075813, p=0.000000, lag=21, stationary@5%=True
+  - dlog_SILVER: ADF=-34.936330, p=0.000000, lag=0, stationary@5%=True
+  - dlog_DXY: ADF=-24.907035, p=0.000000, lag=1, stationary@5%=True
+  - dlog_OIL: ADF=-16.128865, p=0.000000, lag=4, stationary@5%=True
+  - dlog_GAS: ADF=-16.696020, p=0.000000, lag=4, stationary@5%=True
+  - d_UST10Y: ADF=-32.018579, p=0.000000, lag=0, stationary@5%=True
+  - d_VIX: ADF=-17.423565, p=0.000000, lag=4, stationary@5%=True
+
+3) Final check for transformed / scaled data
+-------------------------------------------
+Stationary @ 5%: ['dlog_SOLVPN', 'dlog_COPPER', 'dlog_GOLD', 'dlog_SILVER', 'dlog_DXY', 'dlog_OIL', 'dlog_GAS', 'd_UST10Y', 'd_VIX']
+Not stationary @ 5%: None
