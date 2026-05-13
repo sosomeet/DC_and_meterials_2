@@ -3,11 +3,11 @@ Lag Selection Summary
 ============================================================
 
 Input file        : tvpvar_input_scaled.csv
-Variables         : dlog_SOLVPN, dlog_COPPER, dlog_GOLD, dlog_SILVER, dlog_DXY, dlog_OIL, dlog_GAS, d_UST10Y, d_VIX
-Rows before dropna: 1032
-Rows after dropna : 1032
+Variables         : dlog_SOLVPN, dlog_COPPER, dlog_GOLD, dlog_SILVER, dlog_DXY, dlog_OIL, dlog_GAS, d_UST10Y, d_VIX, d_PJM_LMP
+Rows before dropna: 606
+Rows after dropna : 606
 Dropped rows      : 0
-Sample size       : 1032
+Sample size       : 606
 Requested maxlags : 10
 Used maxlags      : 10
 Candidate lags    : 1 ~ 10
@@ -27,10 +27,10 @@ Recommended lag (majority vote): 1
 
 Raw selected_orders from statsmodels
 ------------------------------------
-aic: 1
+aic: 0
 bic: 0
 hqic: 0
-fpe: 1
+fpe: 0
 
 Decision rule
 -------------
