@@ -1,0 +1,4 @@
+﻿cluster_id,cluster_start,cluster_end,representative_date,n_occurrences,n_unique_min_size,min_sizes,dates
+1,2023-10-31,2023-10-31,2023-10-31,1,1,120,2023-10-31
+2,2024-07-17,2024-07-17,2024-07-17,1,1,120,2024-07-17
+3,2025-04-16,2025-04-16,2025-04-16,1,1,120,2025-04-16
