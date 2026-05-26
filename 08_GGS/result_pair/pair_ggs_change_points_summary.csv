@@ -1,0 +1,10 @@
+﻿pair,model,min_size,penalty,n_cp
+dlog_SOLVPN__dlog_COPPER,normal,120,10.0,3
+dlog_SOLVPN__dlog_GOLD,normal,80,15.0,3
+dlog_SOLVPN__dlog_SILVER,normal,120,15.0,1
+dlog_SOLVPN__dlog_DXY,normal,120,15.0,2
+dlog_SOLVPN__dlog_OIL,normal,120,10.0,3
+dlog_SOLVPN__dlog_GAS,normal,120,15.0,2
+dlog_SOLVPN__d_UST10Y,normal,120,15.0,3
+dlog_SOLVPN__d_VIX,normal,120,50.0,3
+dlog_SOLVPN__d_PJM_LMP,normal,120,10.0,3
